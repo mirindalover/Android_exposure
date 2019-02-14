@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mlc.exposure.view.ExposureScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="文本1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/mText2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="文本2" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_green_dark" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:text="文本3" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_red_dark" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="文本4" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_blue_bright" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="文本5" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:id="@+id/mText6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="文本6" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_purple" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="下面假装是广告图片" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background" />
+
+    </LinearLayout>
+
+</com.mlc.exposure.view.ExposureScrollView>

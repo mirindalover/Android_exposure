@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">exposure_lib</string>
+
+    <item name="exposure_item" type="id"/>
+</resources>
