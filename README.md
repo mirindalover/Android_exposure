@@ -47,6 +47,8 @@ exposureListenerForRecyclerView.setExposureListener(new OnExposureListener() {
 
 使用方法见ScrollViewExposureActivity
 
+- 在对应的想要曝光的view上设置tag(默认为R.id.exposure_item)，也可以通过自定义Rule实现
+
 ```java
 ExposureListenerForScrollView exposureListenerForScrollView = ExposureUtil.createScrollViewListener(mScroll);
 mScroll.setOnScrollListener(exposureListenerForScrollView);
